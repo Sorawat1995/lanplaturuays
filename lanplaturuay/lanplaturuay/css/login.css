@@ -1,0 +1,161 @@
+.bgcolor{
+
+height: 100%;
+ 
+ background:center no-repeat;
+ background-color: #3F51B5;
+/* background-image: url(../img/1.jpg);
+*/
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+
+.bgc{
+   padding-top: 86px;
+   padding-bottom: 75px;
+   /*background-color: #3F51B5;*/
+   background-image: url(../img/22.jpg);
+}
+
+.main-form {
+  width: 350px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: #fff;
+}
+
+.logo {
+ /* background-image: url(../img/logo02.png);
+  width: 122px;
+  height: 135px;*/
+  margin-left: 60px;
+  margin-bottom: 30px;
+
+  
+}
+
+
+
+.main-form > label {
+  display: block;
+  margin: 10px 0 15px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.main-form > div {
+  margin-top: 20px;
+}
+
+a {
+  color: #C4BCB0;
+ 
+}
+.AA {
+  color: #C4BCB0;
+ 
+}
+
+.main-form > a {
+  font-size: 11px;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.main-form > div >a:first-child {
+  font-weight: bold;
+}
+
+.main-form > div >a:nth-child(2) {
+  border: 1px solid #3DA087;
+  display: inline-block;
+  border-radius: 3px;
+  color: #3DA087;
+  font-weight: bold;
+  padding: 7px 15px;
+  margin-left: 28px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.main-form > div >a:nth-child(2):hover {
+  background: #3DA087;
+  color: #fff;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+  background: #EAE6E1;
+  border: 0;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
+  margin: 5px 0;
+  outline: medium none;
+  color: #838383;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  outline: medium none;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]::before {
+  width: 9px;
+  height: 9px;
+  content: "";
+  display: block;
+  border: 3px solid #C4BCB0;
+  border-radius: 9px;
+  position: absolute;
+}
+
+input[type="checkbox"]:checked::after {
+  width: 5px;
+  height: 5px;
+  content: "";
+  display: block;
+  background: #C4BCB0;
+  border-radius: 5px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 10px;
+  background: #3F51B5;
+  border: 0;
+  border-radius: 3px;
+  font-weight: bold;
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #58CCB0;
+}

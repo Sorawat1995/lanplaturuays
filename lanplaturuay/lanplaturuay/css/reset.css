@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset CSS*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent}
+body {line-height: 1, font-family: 'supermarketregular'; color: #333}
+ol,ul {list-style: none}
+blockquote,q {quotes: none}
+blockquote:before,blockquote:after,q:before,q:after {content: ''; content: none}
+:focus {outline: 0}
+ins {text-decoration: none}
+del {text-decoration: line-through}
+table {border-collapse: collapse; border-spacing: 0}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.clear {clear: both; display: block; overflow: hidden; width: 0; height: 0}
+/* @end */
+/* @group General */
+a:focus {outline: 1px dotted invert;}
+hr {border: 0 dotted #aaa; border-top-width: 1px; clear: both; height: 0;}
+h1 {font-size: 16px;}
+h2 {font-size: 14px}
+h3 {font-size: 14px}
+h4 {font-size: 13px}
+h5 {font-size: 12px}
+h6 {font-size: 12px}
+ol {list-style: decimal}
+ul {list-style: circle;}
+li {margin-left: 30px}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,blockquote {margin-bottom: 20px}
+a {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #83f2b2;
+}
+a:active {
+	color: #83f2b2;
+}
+a:link, a:visited, a:active, a:hover {text-decoration: none;}
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+sup {padding-left: 1px; font-size: 10px !important; font-weight: normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; _position: static !important;}
+abbr {border: 0;}
+blockquote {padding: 15px 1em 0; color: #000; border-top: 1px dotted #ccc; border-bottom: 1px dotted #ccc; background-color: #eee;}
+pre, code {font-family: Courier, "Courier New", monospace; font-size: 1em;}
+pre {overflow: auto; overflow-Y: hidden; margin: 0 0 1.2em 0; padding: 0 0 0.5em 0; white-space: pre-wrap;}
+small {font-size: 10px;}
+/* @end */
